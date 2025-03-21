@@ -1,7 +1,7 @@
 // Traer la API y ver que se muestran los datos
 
 const apiUsers = "https://jsonplaceholder.typicode.com/users";
-
+console.log(apiUsers)
 fetch(apiUsers)
 .then(response =>{
     if(!response.ok){
