@@ -11,3 +11,56 @@ h1 {
 }
 
 
+
+#listaUsuarios{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.usuario {
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  align-items: start; /
+}
+
+.card {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.datos {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+p {
+  margin: 2px 0; 
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+img {
+  max-width: 120px; 
+  height: auto;
+  object-fit: cover; 
+}
+
+.empresa {
+  text-align: start; 
+}
+
+
